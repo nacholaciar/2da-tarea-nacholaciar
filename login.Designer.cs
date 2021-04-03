@@ -1,7 +1,7 @@
 ﻿
 namespace miapp_2
 {
-    partial class Form1
+    partial class login
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -29,10 +29,19 @@ namespace miapp_2
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // login
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.Name = "login";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "+";
+            this.Load += new System.EventHandler(this.login_Load);
+            this.ResumeLayout(false);
+
         }
 
         #endregion
