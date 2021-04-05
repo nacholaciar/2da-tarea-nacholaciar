@@ -1,4 +1,5 @@
-﻿using System;
+﻿using miapp_2.entidades;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,9 +13,22 @@ namespace miapp_2
 {
     public partial class Principal : Form
     {
-        public Principal()
+        public Principal(usuario usu)
         {
             InitializeComponent();
+            lblBienvenida.Text = "Bienvenido " + usu.NombreDeUsuario;
+            lblBienvenida.Visible = true;
+
+        }
+
+        private void Principal_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
