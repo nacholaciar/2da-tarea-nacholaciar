@@ -30,5 +30,10 @@ namespace miapp_2
         {
 
         }
+
+        private void usuarioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
